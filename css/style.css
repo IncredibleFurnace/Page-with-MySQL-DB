@@ -1,0 +1,278 @@
+#logo_ncfu {
+	width: 160px;
+	height: 108px;
+}
+
+.title_top {
+	display: flex;
+	justify-content: center;	
+}
+
+/*wrapper section*/
+
+.ncfu_logo_wrapper {
+	display: flex;
+	justify-content: flex-start;
+	height: 150px;
+	width: 550px;
+}
+
+.iitt_logo_wrapper {
+	display: flex;
+	justify-content: flex-end;
+	height: 150px;
+	width: 550px;
+}
+
+.title_portal_name_wrapper {
+	display: flex;
+	height: 150px;
+	width: 550px;
+}
+
+.login_wrapper {
+	display: flex;
+	justify-content: center;
+	height: 150px;
+	width: 550px;
+}
+
+/**/
+
+.login {
+	margin-top: 30px;
+}
+
+.login_form_wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+/* login section */
+.label_login {
+    display : inline-block;	
+    height : 20px;
+    width : 50px;
+    margin-right: 30px;
+	color: #2e3191;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.label_update_form {
+	display : inline-block;
+	color: #2e3191;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.login_input {
+	margin-bottom: 10px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 15px;
+	border-color: #4194d9;
+	height: 40px;
+	width: 500px;
+}
+
+.text_in_login_form {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2e3191;
+}
+
+.submit_input {
+	all: initial;
+    all: unset;
+	width: 592px;
+	height: 40px;
+	background-color: #4194d9;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.submit_input:hover {
+	color : black;
+    cursor : pointer;
+}
+
+/**/
+
+.title_uni_name {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #2e3191;
+	font-weight: 700;
+	width: 170px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
+
+.title_portal_name {
+	color: #2e3191;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+.top_panel {
+	height: 80px;
+	margin-top: 10px;
+	background-color: #4194d9;
+}
+
+.top_panel_text {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 20px;
+}
+
+/*table*/
+.table_wrapper {
+	margin-top: 50px;
+}
+table {
+	margin: auto;
+	border-radius: 5px;
+}
+
+table, td {
+  border: 3px solid black;
+ }
+
+ table, td, th {
+ 	border-color: #4194d9;
+ }
+
+ th {
+ 	font-weight: bold;
+ 	color: #2e3191;
+ }
+
+ td {
+ 	padding: 10px;
+ 	font-weight: bold;
+ }
+
+tr {
+	border-size: 10px;
+	border-color: #2e3191;
+}
+
+.table_title >* {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2e3191;
+	margin: 10px 10px;
+}
+
+.table_title_underline {
+	height: 5px;
+	background-color: #4194d9;
+	margin-bottom: 20px;
+}
+
+.table_add_update td {
+	padding: 0;
+	border: none;
+}
+
+input[type="submit"] {
+	background-color: #4194d9;
+	border-style: none;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+}
+
+input[type="text"] {
+	border-style: solid;
+	border-color: #4194d9;
+	border-radius: 5px;
+	outline: none;
+}
+
+input[type="password"] {
+	border-style: solid;
+	border-color: #4194d9;
+	border-radius: 5px;
+	outline: none;
+}
+
+.input_small{
+	width: 90px;
+}
+
+.delete_from_table {
+	background-color: white;
+	margin: 0;
+	text-decoration: none;
+	color: #2e3191;
+}
+
+/**/
+
+/*forms*/
+form[method="post"] {
+	margin: 0;
+}
+/**/
+
+.button_back {
+    display: block;
+    height: 35px;
+    width: 200px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    padding-top: 5px;
+    border-width:2px;
+    border-color: none;
+    border-radius: 15px;
+    color : white;
+    background-color: #4194d9;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button_back:hover {
+	cursor: pointer;
+	color: black;
+}
+
+/*error*/
+
+.error_h {
+	color: red;
+	text-align: center;
+}
+
+.error_p {
+	color: red;
+	text-align: center;
+}
+
+/*login_form*/
+
+.login_error {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: solid;
+	border-radius: 5px;
+	padding: 10px 0px;
+}
